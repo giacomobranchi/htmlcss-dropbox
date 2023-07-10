@@ -1,5 +1,71 @@
+/*  #region common */
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --drop-primary: #b4d0e7;
+    --drop-btn: #0061ff;
+    --drop-white: #ffffff;
+    --drop-dark: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: var(--drop-dark);
+}
+
+/*  #endregion common */
+
+
+/*  #region debug */
+
+.debug header{
+    background-color: red;
+}
+
+/*  #endregion debug */
+
+/*  #region utility */
+
+.d_flex{
+    display: flex;
+}
+
+.flex_between{
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: var(--drop-btn);
+    padding: 0.3rem 0.5rem;
+    color: var(--drop-white);
+}
+
+/*  #endregion utility */
+
+/* #region header */
+
+header{
+    height: 80px;
+}
+
+.left_nav, .right_nav{
+    font-size: 12px;
+    align-items: center;
+    gap: 16px;
+}
+
+.left_nav{
+    justify-content: flex-start ;
+    padding-left: 1rem;
+}
+
+.right_nav{
+    padding-right: 1rem;
+    justify-content: flex-end;
 }
