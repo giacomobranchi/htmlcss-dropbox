@@ -32,9 +32,13 @@ a{
 
 /*  #region debug */
 
-.debug header{
+/* .debug header{
     background-color: red;
-}
+} */
+
+/* .debug .title_section{
+    background-color: red;
+} */
 
 /*  #endregion debug */
 
@@ -97,9 +101,7 @@ header{
 
 /* #endregion header */
 
-/* #region main */
-
-
+/* #region section_1 */
 
 .title{
     width: 100%;
@@ -138,4 +140,36 @@ header{
 .right_jumbo img{
     object-fit: fill;
     width: 100%;
+}
+
+/* #endregion section_1 */
+
+/* #region section_2 */
+
+.title_section{ 
+    width: 100%;
+    margin-top: 8rem;
+    font-size: 48px;
+    margin-bottom: 3rem;
+}
+
+.fatturazione{
+    font-size: 16px;
+    padding: 3rem 1rem;
+}
+
+.plan_card{
+    width: calc(100% / 12 * 3);
+}
+
+.plan_head{
+    font-size: 16px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.plan_body{
+    border: 1px solid grey;
+    flex-direction: column;
+    gap: 2rem;
 }
