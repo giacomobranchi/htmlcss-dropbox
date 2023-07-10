@@ -12,6 +12,14 @@
     --drop-btn: #0061ff;
     --drop-white: #ffffff;
     --drop-dark: #000000;
+    --drop-square1: #A3D39A;
+    --drop-square2-alterFont: #60092B;
+    --drop-square3: #0192CE;
+    --drop-square4: #FE1C1D;
+    --drop-big-square: #F5F4F4;
+    --drop-square5: #D4011F;
+    --drop-square7: #0D2580;
+    --drop-square8: #FED831;
 }
 
 a{
@@ -46,6 +54,23 @@ a{
     color: var(--drop-white);
 }
 
+.bg_primary{
+    background-color: var(--drop-primary);
+}
+
+.container{
+    width: 80rem;
+    margin: auto;
+}
+
+.py_6{
+    padding-top: 3rem;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 /*  #endregion utility */
 
 /* #region header */
@@ -68,4 +93,49 @@ header{
 .right_nav{
     padding-right: 1rem;
     justify-content: flex-end;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+
+
+.title{
+    width: 100%;
+}
+
+.bg_primary section{
+    height: 650px;
+}
+
+.title h1{
+    font-size: 80px;
+}
+
+.left_jumbo{
+    width: calc(100% / 12 * 4);
+    flex-direction: column;
+}
+
+.left_jumbo div{
+    padding: 1rem 0;
+}
+
+.left_jumbo .btn{
+    width: fit-content;
+}
+
+.left_jumbo i {
+    font-size: 60px;
+}
+
+.right_jumbo{
+    width: calc(100% /12 * 8);
+    
+}
+
+.right_jumbo img{
+    object-fit: fill;
+    width: 100%;
 }
