@@ -27,6 +27,10 @@ a{
     color: var(--drop-dark);
 }
 
+section{
+    padding: 3rem 0;
+}
+
 /*  #endregion common */
 
 
@@ -224,3 +228,18 @@ header{
 
 /* #region section_4 */
 
+.section_4_head{
+    text-align: center;
+}
+
+.section_4_cards{
+    gap: 4rem;
+}
+
+.section_4_card{
+    width: calc(100% / 12 * 3);
+}
+
+.section_4_card img{
+    width: 100%;
+}
