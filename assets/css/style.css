@@ -156,10 +156,13 @@ header{
 .fatturazione{
     font-size: 16px;
     padding: 3rem 1rem;
+    display: inline-block;
 }
 
 .plan_card{
     width: calc(100% / 12 * 3);
+    flex-wrap: wrap;
+    border: 1px solid grey;
 }
 
 .plan_head{
@@ -169,7 +172,22 @@ header{
 }
 
 .plan_body{
-    border: 1px solid grey;
     flex-direction: column;
     gap: 2rem;
+    padding:0 3rem;
+}
+
+.plan_body h5{
+    padding: 1rem 0;
+}
+
+.plan_bot{
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+
+.solution{
+    padding: 2rem 0;
 }
