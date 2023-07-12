@@ -243,3 +243,98 @@ header{
 .section_4_card img{
     width: 100%;
 }
+
+/* #endregion section_4 */
+
+/* #region section_5 */
+
+.section_5_border{
+    margin: auto    ;
+}
+
+.section_5_border h1{
+    padding: 0.5rem 0;
+    font-size: 3rem;
+}
+
+.section_5_border a{
+    margin: 3rem 0;
+    display: block;
+}
+
+/* #endregion section_5 */
+
+/* #region section_6 */
+
+#partners{
+    padding-bottom: 0;
+}
+
+.square{
+    width: calc(100% / 12 * 4);
+}
+
+.square_logos{
+    width: 50%;
+    aspect-ratio: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.square_1{
+    background-color: var(--drop-square1);
+}
+
+.square_2{
+    background-color: var(--drop-square2-alterFont);
+}
+
+.square_3{
+    background-color: var(--drop-square3);
+}
+
+.square_4{
+    background-color: var(--drop-square4);
+}
+
+.square_5{
+    background-color: var(--drop-square5);
+}
+
+.square_6{
+    background-color: var(--drop-primary);
+}
+
+.square_7{
+    background-color: var(--drop-square7);
+}
+
+.square_8{
+    background-color: var(--drop-square8);
+}
+
+.square_center img{
+    margin: 2rem;
+}
+
+.square_center{
+    background-color: var(--drop-big-square);
+}
+
+.square_logos img{
+    width: 50%;
+    filter: invert(100%);
+}
+
+.square hr{
+    margin: 1rem 2rem;
+    width: 100px;
+}
+
+.square blockquote{
+    padding: 2rem;
+}
+
+.square .team_member{
+    padding:0 2rem;
+}
