@@ -71,6 +71,11 @@ section{
     filter: grayscale(50%);
 }
 
+.btn_white:hover{
+    background-color: var(--drop-dark);
+    color: var(--drop-white);
+}
+
 .bg_primary{
     background-color: var(--drop-primary);
 }
@@ -400,6 +405,7 @@ header a:hover{
     color: var(--drop-square2-alterFont);
     font-size: 3rem;
 }
+/* #endregion section 7 */
 
 /* #region section 8 */
 
@@ -409,6 +415,22 @@ header a:hover{
     border-width: 1px 0px;
     border-color: lightgray;
     justify-content: space-between;
+}
+
+.dropdown p{
+    display: none;
+}
+
+.dropdown i{
+    transition: 1s;
+}
+
+.dropdown:hover p{
+    display: block;
+}
+
+.dropdown:hover i{
+    rotate: 180deg;
 }
 
 /* #endregion section 8 */
